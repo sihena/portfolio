@@ -40,3 +40,43 @@
   background-color: var(--color-light-coral);
   font-weight: var(--weight-semi-bold);
 }
+
+
+/* Section common */
+.section {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+/* Home */
+#home {
+  background: url('../Images/background.jpg') center center fixed no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 40px;
+  text-align: center;
+}
+.home__info {
+  position: relative;
+  top: 30%;
+  text-shadow: 1px 1px 5px var(--color-light-gray);
+}
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+.home__contact {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
+}
