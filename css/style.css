@@ -80,3 +80,63 @@
   border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
 }
+
+
+/* About */
+.about__avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid var(--color-light-white);
+  margin-top: 10px;
+}
+.about__text {
+  display: flex;
+}
+.about__text p {
+  padding: 10px 0 10px 40px;
+  text-align: left;
+}
+.about__info {
+  display: flex;
+  justify-content: space-between;
+}
+.about__jobs {
+  margin-right: 40px;
+  flex-basis: 55%;
+}
+.about__study {
+  flex-basis: 45%;
+}
+.about__jobs,
+.about__study {
+  padding: 40px 0;
+}
+.about__info img {
+  max-width: 15%;
+}
+.job,
+.study {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+.job__description,
+.study__description {
+  margin: 0 20px;
+  text-align: left;
+}
+.job__name,
+.job__period,
+.study__name,
+.study__period {
+  color: var(--color-light-gray);
+}
+.job__name,
+.study__name {
+  font-size: var(--font-small);
+}
+.job__period,
+.study__period {
+  font-size: var(--font-micro);
+}
