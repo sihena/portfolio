@@ -308,3 +308,43 @@
 .more__btn:hover {
   transform: scale(1.1);
 }
+
+
+/* Contact */
+#contact {
+  background-color: var(--color-light-coral);
+}
+.contact__title,
+.contact__phone,
+.contact__email,
+.contact__rights {
+  color: var(--color-white);
+}
+.contact__info {
+  margin: 15px 0;
+}
+.contact__call {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.contact__phone {
+  margin: 0 4px;
+}
+.contact__phone i,
+.contact__email i {
+  font-size: var(--font-regular);
+  margin: 0 10px 0 0;
+}
+.contact__links {
+  font-size: var(--font-large);
+  margin: 5px 0;
+}
+.contact__links i {
+  padding-left: 10px;
+  transition: all var(--annimation-duration) ease-in;
+}
+.contact__links i:hover {
+  transform: scale(1.1);
+  color: var(--color-bisque);
+}
