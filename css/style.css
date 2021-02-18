@@ -75,9 +75,11 @@
   padding: 40px;
   text-align: center;
 }
-.home__info {
+.home__container {
   position: relative;
-  top: 30%;
+  top: 35%;
+}
+.home__info {
   text-shadow: 1px 1px 5px var(--color-light-gray);
 }
 .home__title,
@@ -418,7 +420,16 @@
   .navbar__menu.open {
     display: block;
   }
-
+  .about__text {
+    flex-direction: column;
+  }
+  .about__avatar {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  .about__text p {
+    padding: 10px 30px;
+  }
   .section {
     padding: 16px;
     padding-top: 40px;
@@ -440,7 +451,7 @@
   }
   .about__jobs, 
   .about__study {
-    padding: 30px;
+    padding: 20px 30px;
   }
 
   .skillset {
