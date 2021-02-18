@@ -10,6 +10,10 @@
   transition: all var(--annimation-duration) ease-in-out;
   z-index: 99;
 }
+#navbar.navbar--dark {
+  background-color: var(--color-coral);
+  padding: 8px;
+}
 .navbar__logo {
   display: flex;
   align-items: center;
