@@ -40,6 +40,14 @@
   background-color: var(--color-light-coral);
   font-weight: var(--weight-semi-bold);
 }
+.navbar__toggle-btn {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  font-size: 24px;
+  color: var(--color-white);
+  display: none;
+}
 
 
 /* Section common */
@@ -58,7 +66,8 @@
 #home {
   background: url('../Images/background.jpg') center center fixed no-repeat;
   background-size: cover;
-  height: 100%;
+  width: 100%;
+  height: 100vh;
   padding: 40px;
   text-align: center;
 }
@@ -347,4 +356,25 @@
 .contact__links i:hover {
   transform: scale(1.1);
   color: var(--color-bisque);
+}
+
+
+/* Arrow up */
+.arrow-up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  color: var(--color-white);
+  background-color: var(--color-coral);
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all var(--annimation-duration) ease-in;
+}
+.arrow-up.visible {
+  opacity: 1;
+  pointer-events: auto;
 }
