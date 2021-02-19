@@ -21,7 +21,7 @@
   font-weight: var(--weight-semi-bold);
 }
 .navbar__logo img {
-  max-width: 25%;
+  max-width: 15%;
   height: auto;
   margin-right: 10px;
 }
@@ -233,7 +233,7 @@
   border-radius: var(--size-border-radius);
   font-size: var(--font-regular);
   padding: 8px 48px;
-  margin: 4px;
+  position: relative;
 }
 .category__btn.active,
 .category__btn:hover {
@@ -243,7 +243,7 @@
 .category__btn.active .category__count,
 .category__btn:hover .category__count {
   opacity: 1;
-  top: 0;
+  top: 5.5px;
 }
 .category__count {
   background-color: var(--color-orange);
@@ -253,9 +253,9 @@
   height: 24px;
   line-height: 24px;
   display: inline-block;
-  position: relative;
+  position: absolute;
   top: -20px;
-  left: 4px;
+  right: 16px;
   opacity: 0;
   transition: all var(--annimation-duration) ease-in;
 }
