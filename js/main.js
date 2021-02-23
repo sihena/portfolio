@@ -97,6 +97,12 @@ homeContactBtn.addEventListener('click', () => {
   scrollIntoView('#contact');
 });
 
+// Handle click on "logo" button on all
+const homeLogo = document.querySelector('.navbar__logo');
+homeLogo.addEventListener('click', () => {
+  scrollIntoView('#home');
+});
+
 
 // Make home slowly fade to transparent as the window scrolls down
 const home = document.querySelector('.home__container');
